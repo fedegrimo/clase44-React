@@ -1,5 +1,6 @@
 import ContentRowTop from './ContentRowTop';
 import TopBar from './TopBar';
+import TableRow from './TableRow';
 import Footer from './Footer';
 
 export default function ContentWrapper (){
@@ -8,6 +9,7 @@ export default function ContentWrapper (){
             <div id="content">
                 <TopBar />
                 <ContentRowTop />
+                <TableRow />
                 <Footer />
             </div>
         </div>

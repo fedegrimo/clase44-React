@@ -29,9 +29,12 @@ export default function ContentRowMoview (props){
 }
 
 ContentRowMoview.propType = {
-    title : T.string,
-    border: T.string,
-    encryp: T.number,
+    title : T.string.isRequired,
+    border: T.string.isRequired,
+    encryp: T.oneOfType([
+        T.string.isRequire,
+        T.number.isRequired
+    ]),
     icon : T.string
 }
 
