@@ -9,7 +9,8 @@ export default function ContentWrapper (){
             <div id="content">
                 <TopBar />
                 <ContentRowTop />
-                <TableRow />
+                <TableRow data={[{titulo: "Billy Elliot", duracion: 123, rating: "5", genero:"Drama", premio:2},
+                                {titulo: "Alicia en el pais de la maravillas", duracion: 145, rating: "3.2", genero:"Comedia", premio:1}]} />
                 <Footer />
             </div>
         </div>
